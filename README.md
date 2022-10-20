@@ -8,5 +8,5 @@
 
 
 ## Instructions 
- - You should answer all your problems in the `variables.js` file. 
+ - You should answer all your problems in the `script.js` file. 
  - You can comment out code by writing `//` at the beginning of a line.
