@@ -1,18 +1,32 @@
-const birthYear = 1989
+// # Problem One
 
-let futureYear = 2026
+//const birthYear = 1989
 
-let age = futureYear - birthYear
-console.log(age("I will be" + 2))
+//let futureYear = 2026
+
+//let age = futureYear - birthYear
+
+//console.log('I will be '+ age  + ' or ' + (age - 1) + ' in ' + futureYear)
+
+// # Problem Two
+let currentAge = 34
+let maxAge = 40
+let snackAmount = 4 
+
+ 
+let lifetimeSnacks = (maxAge - currentAge) * snackAmount
+console.log('You will need ' + lifetimeSnacks + ' to last you until the age of ' + maxAge)
 
 
 
 
 
 
-// # Problem Three
-let radius = r
-let circumferenceResult = 2PI(r)
 
-console.log ("The circumference is circumferenceResult")
-let areaOfCircle = PI r(r)
+
+
+
+
+
+
+
