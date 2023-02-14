@@ -53,7 +53,6 @@
 // * a = 123
 // * Output:
 // * 3
-
 // Hint:
 // Use the remainder % operator.
 
@@ -69,6 +68,8 @@
 // * bob = 12
 // * Expected values: 
 // * alice = 27
+//12*2 - 3 
+//(Bob * y) - x 
 // 
 // * Example 2
 // * Input: 
@@ -132,4 +133,14 @@
 // * The above rule is valid except that every 100 years special rules apply. 
 // * Years that are divisible by 100 are not leap years if they are not also divisible by 400. 
 // * For example 1900 was not a leap year, but 2000 was. Print "Leap year!" or "Not a leap year!" depending on the year you are provided.
+
+let year = 2024
+let nextLeapYear = year /4
+function leapYear(year, nextLeapYear)
+if (leapYear /4 %3)
+console.log('Leap Year!')
+else
+console.log('Not a leap year!')
+
+
 
